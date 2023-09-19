@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="navbar">
+    <a href="https://www.youtube.com/">Servis</a>
+    <a href="">Contact</a>
+    <a href="">Prodej</a>
+    <a href="">Majitel</a>
+</div>
+<div class="mainPageCntainer">
+    <div>
+        <h1>Opravíme cokoliv za nízkou cenu</h1>
+        <h5>AUTA,MOTORKY,KOLA</h5>
+    </div>
+
+<div class="headobrazek"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxlgoNy0yD91i6hYERKvQGZ8fv_UF-UxxBmw&usqp=CAU" alt="Dráhe auto" width="500" height="auto"
+div>
+
+<div class="">
+
+</div>
+
+
+
+
+</body>
+</html>

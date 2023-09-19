@@ -1,0 +1,43 @@
+.navbar{
+    background-color: rgb(9, 9, 14);
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a {
+    color: rgb(251, 246, 246);
+    font-size: larger;
+    text-decoration: none;
+}
+
+
+
+.navbar a:hover {
+    color:rgb(241, 5, 5)
+}
+
+
+body {
+    margin: 0px;
+}
+
+.mainPageContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headMainPage{
+    margin-top: 100px;
+}
+
+.headobrazek{
+    display: flex;
+    justify-content: right;
+}
+
+.naseSluzby {
+    display: flex;
+    justify-content: left;
+
+}
