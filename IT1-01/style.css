@@ -1,0 +1,60 @@
+.navbar{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+body {
+
+    margin: 0px;
+}
+.navbar a {
+    color: white;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.navbar a:hover {
+color: red
+}
+.kokos {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainpage {
+    margin-top: 190px;
+}
+.nasesluzby {
+    background-color: black;
+    color: white;
+    padding: 32px;
+    justify-content: center;
+
+}
+
+.klima {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.whyUsContainer {
+    display: flex;
+    justify-content: row;
+
+}
+.whyUsBlock {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+
+}
+.postup {
+    background-color: black;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    text-align: center;
+}
