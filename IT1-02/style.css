@@ -1,11 +1,8 @@
-.navbar img {
 
-
-}
 
 
 .navbar{
-background-color: rgb(6, 6, 71);
+background-color: rgb(17, 0, 255);
 }
 
 .navbar a {
@@ -29,4 +26,45 @@ body {
 .videos {
     display: flex;
     justify-content: space-evenly;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    text-decoration: underline;
+    color: white;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 5px solid black;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 2px .1px rgb(36, 32, 32);
+}
+.form input{
+
+    margin-bottom: 10px !important;
+}
+.form button {
+    width: 200px;
+    margin: auto;
+}
+#useremail, #userName {
+    margin: auto;
+    display: block;
+    width: 350px;
+}
+.cons {
+    display: flex;
+    justify-content: center;
+}
+.cons p {
+    margin-top: 10px;
 }
