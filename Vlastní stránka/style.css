@@ -11,8 +11,8 @@
 }
 
 .card-body a {
-    background-color: yellow;
-    border: solid 1px blue;
+    background-color: rgb(23, 97, 0);
+    border: solid 1px rgb(4, 255, 4);
     width: 250px;
     display: block;
     margin: auto;
@@ -33,4 +33,14 @@
 }
 .navbar a:hover {
     color: red;
+}
+
+
+
+.leftMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: auto;
+    border: solid 1px black;
 }
