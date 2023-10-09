@@ -1,0 +1,36 @@
+.product {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card {
+    border: solid 2px red !important;
+    border-radius: 30px;
+    padding-top: 3px;
+}
+
+.card-body a {
+    background-color: yellow;
+    border: solid 1px blue;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.checked {
+    color: orange;
+  }
+
+
+
+
+
+
+
+.navbar a {
+    text-decoration: underline;
+    color: black;
+}
+.navbar a:hover {
+    color: red;
+}
