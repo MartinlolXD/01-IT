@@ -1,0 +1,67 @@
+.rowContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.card {
+    border: solid 4px rgb(0, 0, 0) !important;
+    border-radius: 0px !important;
+    margin: 5px;
+    box-shadow: 5px 5px
+}
+
+.card-body a {
+    background-color:green !important;
+    border: solid 1px rgb(0, 0, 0) !important;
+    width: 250px;
+}
+
+.checked {
+    color: yellow;
+}
+
+.leftMenu {
+    display: flex;
+    flex-direction: column  ;
+    padding: 30px;
+    border: solid 1px black;
+    box-shadow: 5px;
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+
+.leftMenu a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    text-decoration: underline;
+    text-align: left;
+}
+
+.leftMenu :hover {
+color: red;
+}
+
+.leftMenu a:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.globalContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+
+.footer {
+    background-color: black;
+    text-align: center;
+    color: white    ;
+}
