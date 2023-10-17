@@ -1,0 +1,54 @@
+.header {
+    justify-content: center;
+    display: flex;
+}
+
+.navBar1 {
+    justify-content: center;
+    display: flex; 
+    text-align: center;
+    background-color: rgb(234, 49, 49);
+    color: white;
+}
+.navBar1 a:hover {
+    color: white;
+}
+
+.rowContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 50px;
+}
+
+.card {
+    border: solid 4px rgb(0, 0, 0) !important;
+    border-radius: 0px !important;
+    margin: 5px;
+    box-shadow: 5px 5px
+}
+
+.card-body a {
+    background-color:green !important;
+    border: solid 1px rgb(0, 0, 0) !important;
+    width: 250px;
+}
+
+.checked {
+    color: yellow;
+}
+
+.dmc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.dmcText {
+    text-align: center;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
