@@ -1,0 +1,11 @@
+.img {
+    display: flex;
+    color: white;
+    text-decoration: white;
+}
+
+body {
+    background-image: url("https://i.redd.it/zdbimzsd87741.jpg"), url("paper.gif");
+    background-color: #cccccc;
+  }
+  
