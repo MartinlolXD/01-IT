@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="h1">SPRÁVA ŽÁKŮ VE TŘÍDĚ</h1>
+
+    <div class="container1">
+       
+        <div class="inputs">
+            <input id="itemInput" type="text" class="textss" placeholder="Přidat položku">
+            <button onclick="addItem()" class="add">Přidat</button>
+        </div>
+
+       
+        <ul id="itemList" class="list-group">
+        </ul>
+
+        
+        <div class="button">
+            <button id="editButton" onclick="toggleEdit()" class="edit">Upravit položky</button>
+            <button onclick="deleteItems()" class="delete">Smazat položky</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>

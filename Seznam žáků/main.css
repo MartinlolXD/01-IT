@@ -1,0 +1,91 @@
+.h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.edit {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+    color: white;
+}
+.edit:hover {
+    background: linear-gradient(
+        90deg,
+        rgb(145, 3, 3) 0%,
+        rgb(145, 87, 1) 10%,
+        rgb(133, 141, 35) 20%,
+        rgb(44, 126, 41) 30%,
+        rgb(39, 138, 137) 40%,
+        rgb(21, 100, 112) 50%,
+        rgb(17, 74, 139) 60%,
+        rgb(54, 10, 142) 70%,
+        rgb(100, 14, 132) 80%,
+        rgb(130, 14, 114) 90%,
+        rgb(143, 11, 11) 100%
+    );
+    color: white;
+}
+
+.add {
+    background-color: rgb(255, 255, 255);
+}
+
+.add:hover {
+    background-color: lightblue;
+}
+
+
+
+
+
+.delete{
+    background-color: red;
+    color: white;
+}
+
+.delete:hover {
+    background-color: rgb(148, 8, 8);
+    color: white;
+}
+body{
+    background-color: rgb(170, 175, 182);
+}
+
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item button {
+    margin-left: 5px;
+}
